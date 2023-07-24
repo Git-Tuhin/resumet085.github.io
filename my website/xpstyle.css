@@ -1,0 +1,94 @@
+body{
+    background-color: rgb(0, 0, 0);
+    background-image: url("web.jpg");
+    background-size: cover;
+
+}
+#navbar{
+    font-size: larger;
+    font-weight: 1000;
+    height:30px;
+    border:4px solid rgba(110, 88, 252, 0.548);
+    border-radius: 7px;
+    background-color:rgba(99, 0, 99, 0.591);
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#experience{
+    background-color: rgba(110, 88, 252, 0.548);
+    font-size: 20px;
+    text-decoration:none;
+    color: goldenrod;
+    padding:4px;
+}
+.elements{
+    font-size: 20px;
+    text-decoration:none;
+    color:goldenrod;
+    padding:4px;
+}
+.elements:hover{
+    background-color:rgba(110, 88, 252, 0.548);
+
+}
+#expdiv{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#xp{
+    background-color: rgba(99, 0, 99, 0.591);
+    border:5px solid rgba(110, 88, 252, 0.548);
+    margin-top: 50px;
+    border-radius: 10px;
+}
+#exp{
+    color:goldenrod;
+    font-size: 40px;
+    margin:2px;
+
+}
+#expdetails{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+
+}
+#xpparah{
+    background-color: rgba(99, 0, 99, 0.591);
+    border:5px solid rgba(110, 88, 252, 0.548);
+    margin-top: 20px;
+    padding:10px;
+    border-radius: 10px;
+    text-transform: capitalize;
+}
+.xpline{
+    color:goldenrod;
+    font-size:20px;
+    line-height: 40px;
+  
+}
+#certificate{
+    background-color: rgba(99, 0, 99, 0.591);
+    border:5px solid rgba(110, 88, 252, 0.548);
+    border-radius: 10px;
+    height:200px;
+    width:400px;
+    margin-top: 20px;
+}
+#cc{
+    text-align:center;
+    color:goldenrod;
+    font-size: 20px;
+    margin:2px;
+    
+}
+#cerimg{
+    background-color: black;
+    height:172px;
+    border-radius: 10px;
+    background-image: url("cer.jpeg");
+    background-size: cover;
+}
